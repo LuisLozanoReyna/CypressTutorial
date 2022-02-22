@@ -1,0 +1,19 @@
+{
+  "name": "cypresstutorial",
+  "version": "1.0.0",
+  "description": "Automation Tutorial Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "QA",
+    "Automation",
+    "Cypress"
+  ],
+  "author": "Luis Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.0"
+  }
+}
