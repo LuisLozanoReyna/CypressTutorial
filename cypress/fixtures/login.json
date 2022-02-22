@@ -1,0 +1,9 @@
+{
+
+"loginLink" : ".login",
+"email":"#email",
+"password":"#passwd",
+"SubmitCredentials":"#SubmitLogin > span",
+"InvalidMessageBanner":"ol > li"
+
+}
