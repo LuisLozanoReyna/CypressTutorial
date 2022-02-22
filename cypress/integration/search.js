@@ -15,4 +15,13 @@ describe ('Search elements',() =>{
             cy.get(searchResults.Alert).should('contain','No results were found for your search');
              })
     })
-})
+
+    it('Search for elements from a text file',()=>{
+        cy.readFile('cypress/support/text.txt').then((text)=>{
+            cy.search(text);
+        })
+        cy.fixture('SearchResults').then((searchResults)=>{
+            cy.get(searchResults.Alert).should('contain','No results were found for your search');
+             })      
+        })
+    })
