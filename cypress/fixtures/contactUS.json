@@ -1,0 +1,9 @@
+{
+"subjectHeading":"#id_contact",
+"emailAddress":"#email",
+"orderReference":"#id_order",
+"Message":"#message",
+"attachFile":"#fileUpload",
+"sendButton":"#submitMessage"
+
+}

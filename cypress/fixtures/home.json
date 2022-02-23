@@ -1,5 +1,6 @@
 {
     "SearchBar":"#search_query_top",
-    "SearchBttn" : "#searchbox > .btn"
+    "SearchBttn" : "#searchbox > .btn",
+    "ContactUsLink" : "#contact-link > a"
 
 }
