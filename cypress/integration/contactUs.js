@@ -11,16 +11,13 @@ describe('Contact us  - customer service',()=>{
 
 describe('Contact us  - customer service',()=>{
     it('Send Message to Customer Service',()=>{
-        cy.fixture('contactUs').then((contactUs)=>{
-           cy.get(contactUs.subjectHeading).select('Customer service');
-           cy.get(contactUs.emailAddress).type("test@test.com");
-           cy.get(contactUs.orderReference).type('101');
-           cy.get(contactUs.Message).type("Need a refund, item broken");
-           cy.wait(3000);
-           cy.get(contactUs.sendButton).click();
-           cy.get(contactUs.sendButton).click();
+    
+     /*
+     Command to fill Contact us form
+     type, email, orderReference, message
+     */
+     cy.contactUs('Customer service','test@test.com','101','Need a refund, item broken.');
 
-        })
      })
  })
 
