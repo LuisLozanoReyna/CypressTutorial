@@ -4,6 +4,7 @@
 "orderReference":"#id_order",
 "Message":"#message",
 "attachFile":"#fileUpload",
-"sendButton":"#submitMessage"
+"sendButton":"#submitMessage",
+"SuccessMessagw" : ".alert"
 
 }

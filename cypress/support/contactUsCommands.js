@@ -5,5 +5,6 @@ Cypress.Commands.add('contactUs',(Subject,email, orderRef, Message)=>{
         cy.get(contactUs.orderReference).type(orderRef);
         cy.get(contactUs.Message).type(Message);
         cy.get(contactUs.sendButton).click();
+        cy.get(contactUs.sendButton).click();
     })
 })

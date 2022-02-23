@@ -16,7 +16,10 @@ describe('Contact us  - customer service',()=>{
      Command to fill Contact us form
      type, email, orderReference, message
      */
-     cy.contactUs('Customer service','test@test.com','101','Need a refund, item broken.');
+     cy.contactUs('Customer service','test@test.com',10001,'Need a refund, item broken.');
+     cy.fixture('contactUs').then((contactUs)=>{
+        cy.get(contactUs.SuccessMessagw).should('contain','Your message has been successfully sent to our team.');
+     })
 
      })
  })
